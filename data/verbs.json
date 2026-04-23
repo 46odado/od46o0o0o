@@ -1,0 +1,49 @@
+{
+  "roots": {
+    "struct": { "meaning_en": "build", "meaning_ja": "組み立てる", "meaning_ko": "쌓다" },
+    "duce":   { "meaning_en": "lead, bring", "meaning_ja": "導く", "meaning_ko": "이끌다" },
+    "duct":   { "meaning_en": "lead", "meaning_ja": "導く", "meaning_ko": "이끌다" },
+    "port":   { "meaning_en": "carry", "meaning_ja": "運ぶ", "meaning_ko": "나르다" },
+    "spect":  { "meaning_en": "look", "meaning_ja": "見る", "meaning_ko": "보다" },
+    "dict":   { "meaning_en": "say, speak", "meaning_ja": "言う", "meaning_ko": "말하다" },
+    "scribe": { "meaning_en": "write", "meaning_ja": "書く", "meaning_ko": "쓰다" },
+    "mit":    { "meaning_en": "send", "meaning_ja": "送る", "meaning_ko": "보내다" }
+  },
+  "prefixes": {
+    "con-":    { "meaning_en": "together", "meaning_ja": "共に", "meaning_ko": "함께" },
+    "in-":     { "meaning_en": "in, into", "meaning_ja": "中へ", "meaning_ko": "안으로" },
+    "im-":     { "meaning_en": "in, into", "meaning_ja": "中へ", "meaning_ko": "안으로" },
+    "pro-":    { "meaning_en": "forward", "meaning_ja": "前へ", "meaning_ko": "앞으로" },
+    "re-":     { "meaning_en": "back, again", "meaning_ja": "戻す／再び", "meaning_ko": "다시" },
+    "intro-":  { "meaning_en": "inward", "meaning_ja": "内へ", "meaning_ko": "안쪽으로" },
+    "ex-":     { "meaning_en": "out", "meaning_ja": "外へ", "meaning_ko": "밖으로" },
+    "trans-":  { "meaning_en": "across", "meaning_ja": "越えて", "meaning_ko": "가로질러" },
+    "sup-":    { "meaning_en": "under, from below", "meaning_ja": "下から", "meaning_ko": "아래에서" },
+    "pre-":    { "meaning_en": "before", "meaning_ja": "前もって", "meaning_ko": "미리" },
+    "contra-": { "meaning_en": "against", "meaning_ja": "反対に", "meaning_ko": "반대로" },
+    "de-":     { "meaning_en": "down, fully", "meaning_ja": "下へ／完全に", "meaning_ko": "아래로" },
+    "sub-":    { "meaning_en": "under", "meaning_ja": "下に", "meaning_ko": "아래에" }
+  },
+  "verbs": [
+    { "en": "construct",   "ipa": "/kənˈstrʌkt/",   "ja": "建設する",   "ko": "건설하다",   "prefix": "con-",    "root": "struct", "example_en": "They construct a new hospital.",        "example_ja": "彼らは新しい病院を建設する。",      "example_ko": "그들은 새 병원을 건설한다." },
+    { "en": "instruct",    "ipa": "/ɪnˈstrʌkt/",     "ja": "指示する",   "ko": "지시하다",   "prefix": "in-",     "root": "struct", "example_en": "The manager instructs the team.",      "example_ja": "管理者がチームに指示する。",        "example_ko": "관리자가 팀에 지시한다." },
+    { "en": "produce",     "ipa": "/prəˈdjuːs/",    "ja": "生産する",   "ko": "생산하다",   "prefix": "pro-",    "root": "duce",   "example_en": "This factory produces pumps.",         "example_ja": "この工場はポンプを生産する。",      "example_ko": "이 공장은 펌프를 생산한다." },
+    { "en": "reduce",      "ipa": "/rɪˈdjuːs/",     "ja": "減らす",     "ko": "줄이다",     "prefix": "re-",     "root": "duce",   "example_en": "We must reduce energy loss.",          "example_ja": "エネルギー損失を減らさねばならない。","example_ko": "에너지 손실을 줄여야 한다." },
+    { "en": "introduce",   "ipa": "/ˌɪntrəˈdjuːs/", "ja": "紹介する",   "ko": "소개하다",   "prefix": "intro-",  "root": "duce",   "example_en": "Let me introduce the new design.",     "example_ja": "新しい設計を紹介します。",          "example_ko": "새 설계를 소개하겠다." },
+    { "en": "export",      "ipa": "/ɪkˈspɔːt/",     "ja": "輸出する",   "ko": "수출하다",   "prefix": "ex-",     "root": "port",   "example_en": "Japan exports chillers overseas.",     "example_ja": "日本はチラーを海外へ輸出する。",    "example_ko": "일본은 칠러를 해외로 수출한다." },
+    { "en": "import",      "ipa": "/ɪmˈpɔːt/",      "ja": "輸入する",   "ko": "수입하다",   "prefix": "im-",     "root": "port",   "example_en": "We import parts from Germany.",        "example_ja": "部品をドイツから輸入する。",        "example_ko": "부품을 독일에서 수입한다." },
+    { "en": "transport",   "ipa": "/trænsˈpɔːt/",   "ja": "輸送する",   "ko": "운송하다",   "prefix": "trans-",  "root": "port",   "example_en": "Ducts transport supply air.",         "example_ja": "ダクトは給気を輸送する。",          "example_ko": "덕트는 급기를 운송한다." },
+    { "en": "support",     "ipa": "/səˈpɔːt/",      "ja": "支える",     "ko": "지원하다",   "prefix": "sup-",    "root": "port",   "example_en": "The beams support the ceiling.",      "example_ja": "梁が天井を支える。",                "example_ko": "보가 천장을 지지한다." },
+    { "en": "report",      "ipa": "/rɪˈpɔːt/",      "ja": "報告する",   "ko": "보고하다",   "prefix": "re-",     "root": "port",   "example_en": "Report the test result by Monday.",   "example_ja": "月曜までに試験結果を報告する。",    "example_ko": "월요일까지 시험 결과를 보고한다." },
+    { "en": "inspect",     "ipa": "/ɪnˈspɛkt/",     "ja": "検査する",   "ko": "검사하다",   "prefix": "in-",     "root": "spect",  "example_en": "Inspect the pipework weekly.",         "example_ja": "週に一度配管を検査する。",          "example_ko": "주 1회 배관을 검사한다." },
+    { "en": "respect",     "ipa": "/rɪˈspɛkt/",     "ja": "尊重する",   "ko": "존중하다",   "prefix": "re-",     "root": "spect",  "example_en": "Respect the client's requirements.",  "example_ja": "顧客の要件を尊重する。",            "example_ko": "고객의 요구사항을 존중한다." },
+    { "en": "expect",      "ipa": "/ɪkˈspɛkt/",     "ja": "期待する",   "ko": "기대하다",   "prefix": "ex-",     "root": "spect",  "example_en": "I expect the report tomorrow.",       "example_ja": "明日には報告を期待している。",      "example_ko": "내일 보고를 기대한다." },
+    { "en": "predict",     "ipa": "/prɪˈdɪkt/",     "ja": "予測する",   "ko": "예측하다",   "prefix": "pre-",    "root": "dict",   "example_en": "We predict the peak load.",           "example_ja": "ピーク負荷を予測する。",            "example_ko": "최대 부하를 예측한다." },
+    { "en": "contradict",  "ipa": "/ˌkɒntrəˈdɪkt/", "ja": "矛盾する",   "ko": "모순되다",   "prefix": "contra-", "root": "dict",   "example_en": "The data contradicts the spec.",      "example_ja": "データが仕様と矛盾する。",          "example_ko": "데이터가 사양과 모순된다." },
+    { "en": "conduct",     "ipa": "/kənˈdʌkt/",     "ja": "実施する",   "ko": "실시하다",   "prefix": "con-",    "root": "duct",   "example_en": "Conduct a commissioning test.",       "example_ja": "試運転試験を実施する。",            "example_ko": "시운전 시험을 실시한다." },
+    { "en": "induce",      "ipa": "/ɪnˈdjuːs/",     "ja": "誘発する",   "ko": "유발하다",   "prefix": "in-",     "root": "duce",   "example_en": "High velocity induces noise.",        "example_ja": "高風速は騒音を誘発する。",          "example_ko": "고풍속은 소음을 유발한다." },
+    { "en": "describe",    "ipa": "/dɪˈskraɪb/",    "ja": "記述する",   "ko": "묘사하다",   "prefix": "de-",     "root": "scribe", "example_en": "Describe the control logic clearly.", "example_ja": "制御ロジックを明確に記述する。",    "example_ko": "제어 로직을 명확히 기술한다." },
+    { "en": "prescribe",   "ipa": "/prɪˈskraɪb/",   "ja": "規定する",   "ko": "규정하다",   "prefix": "pre-",    "root": "scribe", "example_en": "The code prescribes the duct size.",  "example_ja": "規準がダクト径を規定する。",        "example_ko": "규정이 덕트 크기를 규정한다." },
+    { "en": "submit",      "ipa": "/səbˈmɪt/",      "ja": "提出する",   "ko": "제출하다",   "prefix": "sub-",    "root": "mit",    "example_en": "Submit the shop drawings today.",     "example_ja": "本日中に施工図を提出する。",        "example_ko": "오늘 시공도를 제출한다." }
+  ]
+}
